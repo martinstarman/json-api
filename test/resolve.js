@@ -20,8 +20,16 @@ describe("resolve", () => {
   })
 
   it("should filter data by one param", () => {
-    let data = get({file: "users", params: {id: 1}})
-    assert.deepEqual(data, [
+    let data1 = get({file: "users", params: {id: 1}})
+    let data2 = get({file: "users", params: {id: "1"}})
+    assert.deepEqual(data1, [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 34
+      }
+    ])
+    assert.deepEqual(data2, [
       {
         "id": 1,
         "name": "John Doe",

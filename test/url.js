@@ -14,6 +14,11 @@ describe("url", () => {
   })
 
   it("should parse url with params", () => {
+    let parsed = parse("/endpoint?a=b&c=d")
+    assert.deepEqual(parsed, {file: "endpoint", params: {a: "b", c: "d"}})
+  })
+
+  it("should parse url with params and trailing slash", () => {
     let parsed = parse("/endpoint/?a=b&c=d")
     assert.deepEqual(parsed, {file: "endpoint", params: {a: "b", c: "d"}})
   })
