@@ -1,6 +1,6 @@
 {
-  "name": "stuckapi",
-  "version": "0.0.3",
+  "name": "json-api",
+  "version": "1.0.0",
   "main": "./lib/server.js",
   "scripts": {
     "start": "micro",

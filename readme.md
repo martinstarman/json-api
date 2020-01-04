@@ -1,4 +1,4 @@
-# stuckapi
+# json-api
 
 Create read only API from your data with one command.
 
@@ -40,4 +40,5 @@ Request ```http://localhost:3000/example?a=4``` returns
 ```npm start```
 
 ### Run tests
+
 ```npm test```
