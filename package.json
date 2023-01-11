@@ -10,7 +10,7 @@
     "micro": "^7.3.0"
   },
   "devDependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "^10.2.0"
   },
   "keywords": [
     "static",
