@@ -7,10 +7,10 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "micro": "^7.3.0"
+    "micro": "^10.0.1"
   },
   "devDependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "^10.2.0"
   },
   "keywords": [
     "static",
